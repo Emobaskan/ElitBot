@@ -1,0 +1,10 @@
+bot.on("ready", guild => {
+    bot.user.setActivity('💎*yardım💎 + 💎*oynat💎 + 💎*destek💎', { type: 'LISTINING'  })
+  .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'none'}`))
+  .catch(console.error);
+    console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + bot.channels.size + ` adet kanala, ` + bot.guilds.size + ` adet sunucuya ve ` + bot.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ` kullanıcıya hizmet veriliyor!`);
+    console.log("Bağlandım!")
+});
+client.on('ready', () => {
+  console.log(`BOTUMUZ: ${client.user.tag} giriş yaptı !!!`);
+});

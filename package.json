@@ -1,14 +1,36 @@
 {
   "name": "elitbot",
-  "version": "0.0.1",
-  "description": "Çok amaçlı bot",
-  "main": "bot.js",
+  "version": "2.0.3",
+  "description": "A",
+  "main": "node index.js",
   "scripts": {
-    "test": "node bot.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "Emre",
-  "license": "ISC",
+  "engines": {
+    "node": "8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/An-Idiots-Guide/guidebot.git"
+  },
+  "author": "The Idiot's Guide Community",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/An-Idiots-Guide/guidebot/issues"
+  },
+  "homepage": "https://github.com/An-Idiots-Guide/guidebot#readme",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.4.2",
+    "enmap": "^4.8.2",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "express": "^4.16.4",
+    "random-puppy": "^1.1.0",
+    "snekfetch": "^4.0.4",
+    "fs": "^0.0.2",
+    "quick.db": "^6.3.2",
+    "tr-date": "^1.0.5",
+    "dblapi.js": "^2.3.0"
   }
 }
